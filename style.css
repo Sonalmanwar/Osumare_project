@@ -1,0 +1,369 @@
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    
+}
+
+.right {
+    border-radius: 20px; /* Adjust border radius as needed */
+    background-color: #eef4fa; /* Example box color */
+    padding: 10px 50px; /* Adjust padding as needed */
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  .right a {
+    text-decoration: none;
+    color: rgb(14, 12, 12); /* Example text color */
+    font-weight: bold;
+  
+  }
+ 
+  .center-text {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+  }
+  .blue-text {
+    color: blue;
+  }
+  .text-container {
+    margin-top: 10px; /* Adjust margin as needed */
+    padding-top: 0px;
+  }
+
+  .round-button {
+    display: inline-block;
+    padding: 10px 100px;
+    border-radius: 200px;
+    background-color: rgb(51, 122, 215);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+   
+  }
+  .main_img{
+    text-align: center;
+    position: relative; /* Ensure the container is relatively positioned */
+    
+  }
+ 
+  
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 149px;
+    height: 84px;
+    left: 550px;
+    top: 156px; 
+    color: #f8eeee;
+    font-size: 26px;
+    font-family: lato;
+    
+
+  }
+
+.right-text .round-button{
+ 
+    padding: 10px 25px;
+    /* border-radius: 200px; */
+    background-color: rgb(51, 122, 215);
+    right: 10px;
+    
+
+}
+
+.service{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.service p{
+  /* width: 1278px; */
+height: 44px;
+gap: 0px;
+opacity: 0px;
+
+    
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust as needed */
+  justify-content: center; /* Center align cards horizontally */
+}
+
+.card-container1 {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust as needed */
+  justify-content: center; /* Center align cards horizontally */
+}
+
+.card {
+  width: 150px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    padding: 16px; /* Adjust padding as needed */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text */
+ 
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.round-button-service {
+  display: block;
+  margin: 20px auto; 
+  padding: 10px 100px;
+  border-radius: 200px;
+  background-color: rgb(51, 122, 215);
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center; 
+  width: fit-content; 
+}
+
+.land{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-containerservice {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 300px; /* Adjust margin-left for positioning */
+}
+
+.cardservice {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; /* Adjust card width */
+  height: 50px; /* Adjust card height */
+}
+
+.card-contentservice {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-contentservice img {
+  width: 30px; /* Adjust image size */
+  height: 30px; /* Adjust image size */
+}
+
+.text-content h3,
+.text-content p {
+  margin: 0;
+}
+
+
+.image-containerservice {
+  position: absolute; /* Position the image container absolutely */
+  top: 4; /* Align the top of the container with the top of the card container */
+  margin-left: 400px;
+
+    width: 100px; /* Adjust image size */
+    height: 50px; /* Adjust image size */
+}
+.image-containerservice img{
+  width: 500px; /* Adjust image size */
+  height: 500px; /* Adjust image size */
+}
+
+.inquary{
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.image-containerinquary {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.image-containerinquary img {
+  width: 500px; /* Adjust image width */
+  height: 300px; /* Maintain aspect ratio */
+  margin-left: 200px;
+}
+
+.conversion{
+  text-align: center;
+}
+.card-containerconversion {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.cardconversion h3,
+.cardconversion p {
+  margin: 0; /* Remove default margin for heading and paragraph */
+  text-align: center;
+}
+
+
+
+.cardconversion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; 
+ 
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 10px; /* Adjust margin between cards */
+  width: 300px; /* Adjust card width */
+  border: 2px solid transparent; 
+}
+
+.cardconversion img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.card-containerconversion1{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.mind{
+  text-align: center;
+}
+
+.Part{
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.image-containerinquary1 img {
+  margin-top: 10px;
+  width: 300px; /* Adjust image width */
+  height: 300px; /* Maintain aspect ratio */
+  margin-left: 400px;
+}
+
+.image-containerinquary1 {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.arrow{
+  margin-left: 500px;
+ 
+}
+.arrow img{
+  height: 70px;
+  width: 70px;
+}
+
+.que{
+  text-align: center;
+}
+.que img{
+  margin-top: 20px;
+}
+
+.msg{
+  text-align: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.message-section {
+  flex: 1;
+  margin-left: 20px; 
+}
+
+.message-section label {
+  margin-bottom: 5px;
+}
+
+.message-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+.last img{
+  text-align: center;
+  margin-left: 110px;
+  height: 700px;
+  width: 1250px;
+  margin-top: 30px;
+
+}
+
